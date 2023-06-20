@@ -440,6 +440,96 @@ footer div {
     padding: 15px 0;
 }
 
+.contenedorUsuario {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.crearCuenta {
+    background-color: white;
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 3px rgba(158, 169, 172, 0.66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.crearCuenta h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.form_user {
+    width: 80%;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form_user a {
+    font-size: 14px;
+}
+.form_user label {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputName {
+    width: 30%;
+    height: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px -1px rgba(65, 38, 154, 1);
+}
+.inputEmail {
+    width: 40%;
+    height: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px -1px rgba(65, 38, 154, 1);
+}
+
+.formBoton {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.formBoton input {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 2px 6px -1px rgba(62, 138, 236, 1);
+}
+
+.botonConfirmar {
+    background-color: #27538b;
+    border: 1px solid #27538b;
+}
+.botonReset {
+    background-color: rgb(167, 72, 72);
+    border: 1px solid rgb(167, 72, 72);
+}
+
 /* responsive mobile */
 @media (max-width: 500px) {
     body {
@@ -696,27 +786,5 @@ footer div {
     .contenedorOpciones>div {
         margin: 20px 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

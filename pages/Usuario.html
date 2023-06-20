@@ -48,19 +48,20 @@
 
     <main>
         <div class="contenedorUsuario">
-            <h3>Crea tu cuenta en ProX</h3>
             <div class="crearCuenta">
-              <form>
+              <h3>Crea tu cuenta en ProX</h3>
+              <form class="form_user">
                 <label for="nombre">Nombre</label>
-                <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre aqui">
+                <input class="inputName"  type="text" name="nombre" id="nombre" placeholder="Nombre">
                 <label for="apellido">Apellido</label>
-                <input class="apellido" type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido aqui">
+                <input class="inputName" type="text" name="apellido" id="apellido" placeholder="Apellido">
                 <label for="correo">Correo Electrónico</label>
-                <input class="correo" type="email" name="email" id="correo" placeholder="example@gmail.com">
-                <input class="botones" type="reset" value="Limpiar">
-                <input class="botones" type="submit" value="Confirmar">
+                <input class="inputEmail" type="email" name="email" id="correo" placeholder="tucorreo123@gmail.com">
+                <div class="formBoton">
+                  <input class="botonConfirmar" type="submit" value="Confirmar">
+                  <input class="botonReset" type="reset" value="Limpiar">
+                </div>
                 <a href="../index.html">Prefiero no iniciar sesión</a>
-    
             </form>
             </div>
         </div>
