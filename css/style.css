@@ -530,6 +530,16 @@ footer div {
         flex-wrap: nowrap;
         overflow-x: scroll;
     }
+    .productos_nuevos img {
+        width: 180px;
+    }
+
+    .img_categoria {
+        margin: 20px 0;
+    }
+    .img_categoria a img {
+        width: 180px;
+    }
 
     .contenedor_reco1 {
         width: 100%;
